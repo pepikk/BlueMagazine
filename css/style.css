@@ -90,6 +90,9 @@ a,li,i, a .fa {
 	padding-left: 25px;
 
 }
+.user-cont {
+    min-width: 250px;
+}
 
 .user-cont a{
 	float: left;

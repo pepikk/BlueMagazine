@@ -455,6 +455,7 @@ form {
     position: relative;
     top:15px;
 }
+/*--SLIDER--*/
 .slider {
     background-color: #777777;
     height: 455px;
@@ -533,3 +534,4 @@ form {
 .circle span.active {
     background-color: #fff;
 }
+/*--\SLIDER--*/

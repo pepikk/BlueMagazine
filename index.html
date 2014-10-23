@@ -18,7 +18,23 @@
 			<ul class="float-left">
 				<li><a href="#">home</a></li>
 				<li><a href="#">store</a></li>
-				<li><a href="#">blog</a></li>
+				<li><a href="#">blog</a>
+					<ul class="drop-down">
+						<li><a href="#">item 1</a></li>
+						<li><a href="#">item 2</a>
+							<ul class="drop-down">
+								<li><a href="#">item 1</a></li>
+								<li><a href="#">item 2</a></li>
+								<li><a href="#">item 3</a></li>
+								<li><a href="#">item 4</a></li>
+								<li><a href="#">item 5</a></li>
+							</ul>
+						</li>
+						<li><a href="#">item 3</a></li>
+						<li><a href="#">item 4</a></li>
+						<li><a href="#">item 5</a></li>
+					</ul>
+				</li>
 				<li><a href="#">about</a></li>
 				<li><a href="#">contact</a></li>
 			</ul>
@@ -97,7 +113,7 @@
 									<li><a href="#">Sport</a></li>
 								</ul>
 							</li>
-							<li >
+							<li>
 								<a href="#" class="cf">Business<i class="fa fa-chevron-circle-right"></i></a>
 								<ul class="sub-categories">
 									<li><a href="#">Jobs</a></li>
@@ -105,7 +121,7 @@
 									<li><a href="#">Media</a></li>
 								</ul>
 							</li>
-							<li >
+							<li>
 								<a href="#" class="cf">Lifestyle<i class="fa fa-chevron-circle-right"></i></a>
 								<ul class="sub-categories">
 									<li><a href="#">Home</a></li>
@@ -117,61 +133,90 @@
 
 					</div>
 
-				</div> <!-- /Columns with contacts and categories -->
+				</div>
+				<!-- /Columns with contacts and categories -->
 
-			</div> <!-- .col-1-2 -->
+			</div>
+			<!-- .col-1-2 -->
 
 			<div class="col-1-2">
 				<div class="follow-box">
 
 					<div class="grid">
-								<div class="col-1-2">
-									<div class="follow-menu">
-										<ul>
-											<li><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
-											<li><a href="#"><i class="fa fa-google-plus"></i>Google +</a></li>
-											<li><a href="#"><i class="fa fa-rss"></i>Rss feeds</a></li>
-											<li><a href="#"><i class="fa fa-pinterest"></i>Pinterest</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="col-1-2">
-								<div class="follow-facebook">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<p class="cf">156K <a class="float-right" href="#">Follow<i class="fa fa-plus-circle"></i></a></p>
-								</div>
-								<div class="follow-twitter">
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<p class="cf">89K <a class="float-right" href="#">Following<i class="fa fa-check-circle"></i></a></p>
-								</div>
-								</div><!-- /.col-1-2/2-->
-					</div><!--/.grid .col-1-2-->
+						<div class="col-1-2">
+							<div class="follow-menu">
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
+									<li><a href="#"><i class="fa fa-google-plus"></i>Google +</a></li>
+									<li><a href="#"><i class="fa fa-rss"></i>Rss feeds</a></li>
+									<li><a href="#"><i class="fa fa-pinterest"></i>Pinterest</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="follow-facebook">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+
+								<p class="cf">156K <a class="float-right" href="#">Follow<i
+										class="fa fa-plus-circle"></i></a></p>
+							</div>
+							<div class="follow-twitter">
+								<a href="#"><i class="fa fa-twitter"></i></a>
+
+								<p class="cf">89K <a class="float-right" href="#">Following<i
+										class="fa fa-check-circle"></i></a></p>
+							</div>
+						</div>
+						<!-- /.col-1-2/2-->
+					</div>
+					<!--/.grid .col-1-2-->
 				</div>
-						<div class="sign-in">
-							<h2>Sign In</h2>
-							<p>Just select your favorite social network to get started</p>
-							<ul>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							</ul>
-						</div>
-						<div class="join">
-							<h2>Join the Newsletter</h2>
-							<p>Sign up for our personalized daily newsletter</p>
-							<form method="get">
-								<input type="text" name="email" placeholder="Enter email address"/>
-								<input type="submit" name="sign" value="SIGN UP"/>
-							</form>
+				<div class="sign-in">
+					<h2>Sign In</h2>
 
-						</div>
-					</div><!--/.col-1-2-->
+					<p>Just select your favorite social network to get started</p>
+					<ul>
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+				</div>
+				<div class="join">
+					<h2>Join the Newsletter</h2>
 
-				</div><!-- /.grid -->
-	</section>
+					<p>Sign up for our personalized daily newsletter</p>
+
+					<form method="get">
+						<input type="text" name="email" placeholder="Enter email address"/>
+						<input type="submit" name="sign" value="SIGN UP"/>
+					</form>
+
+				</div>
+			</div>
+			<!--/.col-1-2-->
+
 		</div>
+		<!-- /.grid -->
+	</section>
+	<section class="slider row">
+		<h2>Featured Story</h2>
+		<p>Now that the holiday gift-giving time is over, we're
+			sure many of our readers unwrapped some new consoles.
+			Despite its long life on the market...</p>
+		<a class="prev" href="#"><i class="fa fa-chevron-left"></i></a>
+		<a href="#">view more</a>
+		<a class="next" href="#"><i class="fa fa-chevron-right"></i></a>
+		<div class="circle cf">
+			<span></span>
+			<span class="active"></span>
+			<span></span>
+			<span></span>
+		</div>
+
+	</section>
+</div>
 
 
 </body>

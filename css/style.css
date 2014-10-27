@@ -100,7 +100,8 @@ a,li,i, a .fa {
     visibility: hidden;
     opacity: 0;
     transition: all .3s;
-    transform: translateY(-125px) scale(0.8);
+    transform: translateY(-25px) scale(0.8);
+
 }
 .main-menu .drop-down li .drop-down {
     left: 100%;
@@ -534,4 +535,6 @@ form {
 .circle span.active {
     background-color: #fff;
 }
+
 /*--\SLIDER--*/
+
